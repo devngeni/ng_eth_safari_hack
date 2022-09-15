@@ -1,0 +1,115 @@
+/** @format */
+
+.App {
+  text-align: center;
+  background: #09071b;
+  height: 100vh;
+  width: 100vw;
+  color: antiquewhite;
+}
+
+.container {
+  position: absolute;
+  width: 600px;
+  height: 405px;
+  left: 50%;
+  transform: translate(-50%);
+  top: 310px;
+}
+.usdStyle{
+  color: red;
+  font-size: 22px;
+  font-weight: 900;
+
+}
+.inputname {
+  left: 0;
+  margin-top: 1rem;
+  color: white;
+  width: max-content;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.amountUS {
+  left: 50%;
+}
+
+input {
+  position: absolute;
+  width: 400px;
+  height: 35px;
+  right: 10px;
+
+  background: #d9d9d9;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+}
+
+.exchange {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 35px;
+
+  background: #0b73d3;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+
+  color: #d9d9d9;
+}
+
+.connect {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  right: 100px;
+  top: 100px;
+
+  background: #0b73d3;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+
+  color: #d9d9d9;
+}
+
+@media screen and (max-width: 1380px) {
+  .container {
+    position: absolute;
+    width: 600px;
+    height: 405px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;
+  }
+  .connect {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    right: 100px;
+    top: 50px;
+
+    background: #0b73d3;
+    border-radius: 20px;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+
+    color: #d9d9d9;
+  }
+}
